@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app" aria-label="Tic Tac Toe">
+    <header class="app__header">
+      <div class="topbar">
+        <h1 class="app__title">Tic-Tac-Toe</h1>
+        <button class="themeBtn" id="themeBtn" type="button" aria-label="Toggle dark mode">
+          Dark Mode
+        </button>
+      </div>
+      <div class="turn" id="turn">Turn: <span id="turnText">X</span></div>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+
+
+      <div class="scoreboard" aria-label="Scoreboard">
+        <div class="score">
+          <span class="score__label">X</span>
+          <span class="score__value" id="xScore">0</span>
+        </div>
+        <div class="score">
+          <span class="score__label">O</span>
+          <span class="score__value" id="oScore">0</span>
+        </div>
+        <div class="score">
+          <span class="score__label">Draw</span>
+          <span class="score__value" id="dScore">0</span>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="boardWrap">
+      <div class="board" id="board" role="grid" aria-label="Game board">
+        <!-- Cells inserted by JS -->
+      </div>
+
+      <div class="controls">
+        <div class="panel">
+          <div class="difficulty">
+            <label for="difficulty">Difficulty</label>
+            <select id="difficulty" aria-label="Select difficulty">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <button class="btn" id="restartBtn" type="button">Restart Game</button>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="hint">
+      Tap a square to place your mark. First to connect 3 wins.
+    </footer>
+  </main>
+
+  <script type="module" src="script.js"></script>
+  <script src="theme.js"></script>
+
+</body>
+</html>
+
+
