@@ -20,15 +20,6 @@
 
 ---
 
-## 📺 GIF Demo
-> Add a short looping GIF (recommended) showing gameplay + winning highlight.
-
-**GIF placeholder:**
-```md
-![Tic-Tac-Toe demo](./path-to-your-gif.gif)
-```
-
----
 
 ## 📝 Project Summary
 A modern and responsive **Tic-Tac-Toe** web game built using **HTML, CSS, and JavaScript**.
@@ -137,7 +128,7 @@ tic-tac-toe-app/
 ---
 
 ## 👨‍💻 Author
-**Tri-2028**
+**Trivarna Kandlur**
 
 ---
 
