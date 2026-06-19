@@ -15,9 +15,8 @@
 ---
 
 ## 🚀 Live Demo
-> **Replace this placeholder URL with your real GitHub Pages link:**
 
-🔗 https://Tri-2028.github.io/tic-tac-toe-app/
+🔗 https://tic-tac-toe-app-seven-gamma.vercel.app/
 
 ---
 
